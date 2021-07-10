@@ -1,0 +1,261 @@
+@font-face {
+  font-family: Russo;
+  src: url('RussoOne-Regular.ttf') format("truetype");
+}
+
+
+
+
+
+
+/*                           GENERALES */
+* {
+
+  margin:0;
+  padding:0;
+} 
+body{
+  margin-top:0;
+}
+h1{
+  font-family: Russo;
+  padding-top: 10px;
+  font-size: 37px;
+  letter-spacing: 1 px;
+  text-align: center;
+}
+
+
+
+
+/*                            HEADER*/
+header{
+  padding-top: 6%;
+  display:flex;
+  justify-content:space-around;
+  background-color:#eee9e4;
+}
+header a{
+  font-size: 12px;
+}
+header a{
+  color:black;
+  position: fixed;
+  right:9%;
+}
+
+/*                              NAV */
+nav{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: #E5DDD2;
+  top: 90.5%;
+}
+
+
+
+
+
+
+/*                 PRESENTACION DE LA PAGINA*/
+
+
+.prst{
+  display:flex;
+  flex-direetion:column;
+  justify-content:center;
+  align-items: center;
+  background-color:#eee9e4;
+  height: 90%;
+}
+.prst h1{
+  font-family: Russo;
+  font-size: 37px;
+  letter-spacing: 2px;
+}
+.prst h3{
+  text-align: center;
+  font-family: Russo;
+  font-weight: light;
+  font-size: 20px;
+}
+
+
+
+
+/*                            HISTORIA*/
+
+.hsty__atc p{
+  border: 1.5px solid #D5AA7B;
+  padding: 2%;
+  margin: 10%;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  font-size: 13px; 
+}
+.hsty__atc{
+  background-color:#F9F5E6;
+  padding-bottom: 2%;
+}
+
+/*                            NOSOTROS*/
+.us__atc p{
+  border: 1.5px solid #D5AA7B;
+  padding: 2%;
+  margin: 10%;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  font-size: 13px; 
+}
+.us__atc{
+  background-color:#E7E4D9;
+  padding-bottom: 2%;
+}
+
+/*                             BANNER*/
+
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url('../banner/banner.jpg');
+  background-size: 100%;
+  height: 300px;
+  margin-top: 6.5%;
+  margin-bottom: 6.5%;
+}
+
+.banner h2{
+  padding-top: 6%;
+  letter-spacing: 1px;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-family: Russo;
+}
+.banner p{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 4%;
+  margin-right: 4%;
+  margin-left: 4%;
+  font-family: Roboto;
+}
+
+
+/*                              FORMULARIO */
+
+.contactoForm{
+  padding-top: 5%;
+  background-color:#E5DDD2;
+  height: 400px;
+  margin-bottom: 6%;
+}
+.contactoForm form{
+  margin: 0 auto;
+  width: 75%;
+  border: 1.5px solid white;
+  padding:5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactoForm input{
+
+  width: 95%;
+  margin-bottom: 4%;
+  font-size: 11px;
+  padding-bottom: 3px;
+  border: 0px;
+  border-bottom: 1.7px solid #957262;
+  background-color: #E5DDD2;
+}
+.contactoForm textarea{
+  width: 95%;
+  background-color:#E5DDD2;
+  margin-top: 3%;
+  border: 1.7px solid #957262;
+}
+.contactoForm input[type = "submit"]{
+  width: 20%;
+  align-self: flex-start;
+  margin-top: 5%;
+  color: white;
+  font-weight: 400;
+  background-color: #957262;
+  margin-left: 2.5%;
+  padding-top: 1%;
+}
+
+
+/*                         SUSCRIPCION*/
+.suscripcion{
+  width: 100%;
+  padding-top: 5%;
+  margin-bottom:50%;
+}
+.suscripcion form{
+  width: 85%;
+  margin:  0 auto;
+  display: flex;
+  flex-direction: column;
+  border:  1.5px solid #D2A270;
+  align-items: center;
+  padding-bottom: 5%;
+}
+.suscripcion input{
+  width: 80%;
+  padding-bottom: 2%;
+  margin-bottom: 1%;
+  margin-top: 5%;
+  border: 0;
+  border-bottom: 2px solid #CEC8B3;
+}
+.suscripcion input[type="submit"]{
+  background-color: #D19E23;
+  color: white;
+  margin-top: 7%;
+  font-weight: 600;
+  border: 0;
+  width: 30%;
+  height: 25px;
+  line-height: 25px;
+}
+.suscripcion h2{
+  padding-top: 5%;
+  font-family: Russo;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding-bottom: 5%;
+}
+
+
+
+
+/*                               FOOTER*/
+footer{
+  color: white;
+  width: 100%;
+  background-color: #221A15;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+
+}
+footer div{
+  margin: 7%;
+  margin-top: 20%;
+  font-size: 11px;
+}
+iframe{
+  position: absolute;
+  top: 545%;
+  width: 85%;
+  left: 7%;
+}
+nav{
+  z-index: 3;
+}

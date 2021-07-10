@@ -1,0 +1,161 @@
+@media screen and (min-width: 768px) 
+{
+	/*              BARRA NAV*/
+	nav{
+		left: -46.5%;
+		top: 35%;
+		width: 100%;
+		height: 10%;
+		transform: rotate(90deg);
+	}
+
+
+
+
+
+	/*            HEADER */
+	header {
+
+	}
+
+
+
+
+
+	/*           PRESENTACION*/
+	.prst{
+		height: 100%;
+	}
+	.prst h1{
+		font-size: 65px;
+		margin-top: -10%;
+		margin-left: 3%;
+	}
+	.prst h3{
+		margin-top: 20%;
+	}
+
+	/*HISTORIA*/
+
+	.hsty__atc{
+		display: flex;
+		flex-direction: row;
+		height: 450px;
+		padding-bottom: 0;
+
+	}
+	.hsty__atc img{
+		width: 50%;
+		height: 450px;
+		object-fit: cover;
+	}
+	.hsty__atc p{
+		height: 70%
+	}
+
+
+
+
+	/*             NOSOTROS */
+	.us__atc{
+		justify-content: space-around;
+		display: flex;
+		flex-direction: row;
+		height: 450px;
+		padding-bottom: 0;
+	}
+	.us__atc img{
+		width: 50%;
+		height: 450px;
+		object-fit: cover;
+		order: 2;
+	}
+	.us__atc .paragraph{
+		margin-left: 15%;
+	}
+	.us__atc h1{
+		margin-left: 15%;
+	}
+
+
+
+
+	/*              BANNER */
+	.banner{
+		height: 20%;
+		display: flex;
+		flex-direction: row;
+
+	}
+	.banner .blankspace{
+		width: 50%;
+
+	}
+	.banner .banner__content{
+		width: 50%;
+		margin-left: 10%;
+	}
+
+
+	/*             FORM */
+
+
+	.contactoForm{
+		height: 50%;
+	}
+	.contactoForm form{
+		height: 70%;
+		padding: 2%;
+		width: 80%;
+		padding-left: 5%;
+		display: flex;
+		margin-left: 8%;
+		justify-content:space-evenly;
+		flex-direction: row;
+	}
+	.contactoForm .inputs{
+		width: 25%;
+	}
+	.contactoForm input{
+		width: 100%;
+		border-bottom: 2px solid #957262;
+		font-size: 14px;
+		margin-bottom: 10%;
+	}
+	.contactoForm input:last-child{
+		margin-bottom: 2%;
+	}
+	.contactoForm .textarea{
+		width: 75%;
+		margin-top: 2%;
+		margin-left: 5%;
+
+	}
+	.contactoForm textarea{
+		height: 60%;
+		border: 2px solid #957262;
+		margin-top: 11%;
+	}
+
+
+
+	/*SUSCRIPCION */
+	.suscripcion form{
+		margin-left: 10%;
+		
+	}
+	.suscripcion
+	.suscripcion input[type="submit"]{
+		height: 4%;
+		font-size: 15px;
+		padding-top: 10px;
+	}
+
+	/* FOOTER*/
+	iframe{
+		width: 50%;
+		height: 50%;
+		left: 45%;
+		top: 510%;
+	}
+}

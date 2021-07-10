@@ -1,0 +1,187 @@
+@media screen and (min-width: 1880px){
+	/* NAV*/
+
+	nav{
+		left: -48.2%;
+		height: 100px;
+	}
+
+
+
+	/*  HEADER*/
+	header{
+		padding-top: 3%;
+	}
+	header a{
+		font-size: 18px;
+	}
+
+	/* PRESENTACION*/
+	.prst h1{
+		font-size: 150px;
+		color: #221A15;
+	}
+	.prst h3{
+		color: white;
+		font-size: 50px;
+	}
+
+
+
+		/*HISTORIA*/
+
+	.hsty__atc{
+		display: flex;
+		flex-direction: row;
+		height: 450px;
+		padding-bottom: 2%;
+
+	}
+	.hsty__atc h1{
+		font-size: 70px;
+		}
+	.hsty__atc img{
+		width: 60%;
+		height: 488px;
+		object-fit: cover;
+	}
+	.hsty-txt{
+		font-size: 20px;
+		width: 40%;
+	}
+	.hsty-txt p{
+		font-size: 18px;
+		height: auto;
+	}
+
+
+			/*NOSOTROS*/
+
+	.us__atc{
+		display: flex;
+		flex-direction: row;
+		height: 450px;
+		padding-bottom: 2%;
+
+	}
+	.us__atc h1{
+		font-size: 70px;
+		}
+	.us__atc img{
+		width: 60%;
+		height: 488px;
+		object-fit: cover;
+	}
+	.us-txt{
+		font-size: 20px;
+		width: 40%;
+	}
+	.us-txt p{
+		font-size: 18px;
+		height: auto;
+	}
+
+
+	/* BANNER */
+
+	.banner{
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+
+
+	/* FORMULARIO CONTACTO*/
+
+	.contactoForm{
+		height: 45%;
+		padding-top: 2%;
+	}
+	.contactoForm form input[type = "submit"]{
+		margin-top: 1%;
+		margin-left: 0;
+		width: 7%;
+	}
+	.contactoForm .textarea{
+		margin-top: -14%;
+		height: 65%;
+	}
+	textarea{
+
+		font-size: 15px;
+		padding-left: 5px;
+	}
+
+
+	/* SUSCRIPCION*/
+	.suscripcion{
+		margin-top: -6%;
+		width: 100%;
+		height: 30%;
+		margin-bottom: 20%;
+	}
+	.suscripcion form{
+		width: 87%;
+		display: flex;
+		margin-left: 8%;
+		padding-bottom: 2%;
+		justify-content: space-between;	
+		flex-direction: row;
+		flex-wrap: wrap;
+		height: 100%;
+	}
+	.suscripcion h2{
+		width: 100%;
+		margin-bottom: 2%;
+		font-size: 35px;
+		text-align: center;
+		padding-top: 2%;
+	}
+	.suscripcion input{
+		width: 70%;
+		height: 2%;
+		padding-bottom: 0.5%;
+		margin-right: 10%;
+		font-size: 15px;
+		margin-top: -5%;
+		margin-bottom: 2%;
+	}
+	.suscripcion input:first-child{
+		margin-left: 10%;
+	}
+	.suscripcion .inputsform{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.inputsform{
+		width: 100%;
+	}
+	.suscripcion input[type = "submit"]{
+		margin-top: 2%;
+		width: 10%;
+		margin-left: 45%;
+
+	}
+
+
+	/*FOOTER*/
+
+	iframe{
+		top: 345%;
+		left: 60%;
+		width: 35%;
+		height: 50%;
+	}
+	footer{
+		display: block;
+	}
+	footer h3{
+		padding-top: 1%;
+		font-size: 25px;
+	}
+	footer p{
+		width: 50%;
+		font-size: 18px;
+	}
+}

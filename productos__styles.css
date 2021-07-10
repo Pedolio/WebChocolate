@@ -1,0 +1,71 @@
+.productos__header{
+	background-color:white;
+	margin-bottom: 8%;
+
+}
+.productos__art h1{
+	margin-bottom: 8%;
+}
+
+
+
+
+/*CARDS*/
+
+.cards{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.card{
+	width: 44%;
+	height: 200px;
+	margin-bottom: 10%;
+}
+.card{
+	box-shadow: 4px 4px 0px #AEAEAE;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+}
+.card p{
+	color: white;
+	text-align: center;
+	background-color: rgb(128, 64, 0, 0.3);
+}.card:first-child{
+	background-image: url('../trozos-chocolate-sobre-mesa-madera-cacao-espolvoreado_1220-537.jpg');
+	background-size: 170%;
+	background-position-x: -60px;
+	background-repeat: no-repeat;
+}
+.card:nth-child(2){
+	background-image: url('../trozos-chocolate-sobre-mesa-madera-cacao-espolvoreado_1220-537.jpg');
+	background-size: 170%;
+	background-position-x:-70px;
+	background-repeat: no-repeat;
+}
+.card:nth-child(3){
+	background-image: url('../trozos-chocolate-sobre-mesa-madera-cacao-espolvoreado_1220-537.jpg');
+	background-size: 170%;
+	background-position-x:-80px;
+	background-repeat: no-repeat;
+}
+.card:nth-child(4){
+	background-image: url('../trozos-chocolate-sobre-mesa-madera-cacao-espolvoreado_1220-537.jpg');
+	background-size: 170%;
+	background-position-x:-90px;
+	background-repeat: no-repeat;
+}
+.card:nth-child(5){
+	background-image: url('../trozos-chocolate-sobre-mesa-madera-cacao-espolvoreado_1220-537.jpg');
+	background-size: 170%;
+	background-position-x:-100px;
+	background-repeat: no-repeat;
+}
+.card:nth-child(6){
+	background-image: url('../trozos-chocolate-sobre-mesa-madera-cacao-espolvoreado_1220-537.jpg');
+	background-size: 170%;
+	background-position-x:-110px;
+	background-repeat: no-repeat;
+}
